@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact info</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+</head>
+<body>
+    <section class=" grid grid-cols-1 justify-items-center mt-28" >
+     
+        <div class=" p-4 w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-md sm:p-6 md:p-8">
+            <form class="space-y-6" action="#">
+                <h5 class="text-xl font-medium text-gray-900 ">Sign in to our platform</h5>
+                <div>
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Your name</label>
+                    <div class="flex">
+                        <input id="name-field" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full  " placeholder="enter your name">
+                        <div class="flex mx-2">
+                            <button id="name-send" type="button" class="mx-2  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">send</button>
+                            <button id="name-delete" type="button" class="  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">delete</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
+                    <div class="flex">
+                        <input id="mail-field" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full  " placeholder="enter your mail">
+                        <div class="flex mx-2">
+                            <button id="mail-send" type="button" class="mx-2  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">send</button>
+                            <button id="mail-delete" type="button" class="  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">delete</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Your message</label>
+                    <div class="flex">
+                        <input id="mess-field" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full  " placeholder="enter message">
+                        <div class="flex mx-2">
+                            <button id="mess-send" type="button" class="mx-2  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">send</button>
+                            <button id="mess-delete" type="button" class="  text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-full text-sm  px-5 ">delete</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex items-start">
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-gray-50 rounded border border-gray-300" required="">
+                        </div>
+                        <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                    </div>
+                    <a href="#" class="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+                </div>
+                <button id="btn-enter" type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800  font-medium rounded-lg text-sm px-5 py-2.5 text-center">Login to your account</button>
+                <button id="btn-clear" type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800  font-medium rounded-lg text-sm px-5 py-2.5 text-center">clear</button>
+                <div class="text-sm font-medium text-gray-500">
+                    Not registered? <a href="#" class="text-blue-700 hover:underline">Create account</a>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <script src="contact.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+</html>
